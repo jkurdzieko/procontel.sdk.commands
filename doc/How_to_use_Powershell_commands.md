@@ -2,7 +2,7 @@
 
 There are 4 commands to create and handle endpoints much easier than before. While executing these commands, pattern .cs files are created automatically and are added simply to your dll file after compiling. The related functions are located in a powershell script (PCTCommands.psm1) . 
 
-![Picture 1](./images/HowToUsePowershellCommandsPic1.JPG)
+![Picture 1](./images/HowToUsePowershellCommandsPic1.jpg)
 
 ### How to use commands
 
@@ -40,7 +40,7 @@ PM> Add-PCTEndpoint MyEndpoint ..... ..... Time Elapsed: 00:00:00.4718015 Endpoi
 If you need to repeat this step to rename your endpoint, please remove the Endpoint.cs from your project first. **You have to create another new class library for every single endpoint.**
 
 
-![Picture 2](./images/HowToUsePowershellCommandsPic2.PNG)
+![Picture 2](./images/HowToUsePowershellCommandsPic2.png)
 
 
 
@@ -130,11 +130,11 @@ Now, you have to just add your code to functions as before. Let us continue our 
 
 Since this will show a user interface, you have to create a HMI (frontend). 
 
-![Picture 3](./images/HowToUsePowershellCommandsPic3.PNG)
+![Picture 3](./images/HowToUsePowershellCommandsPic3.png)
 
 Let us take a look at this with the help of an example. Remember our  order example? In order to make our endpoint taking action, we need a  trigger. It can be a simple button as below:
 
-![Picture 4](./images/HowToUsePowershellCommandsPic4.PNG)
+![Picture 4](./images/HowToUsePowershellCommandsPic4.png)
 
 This view will be displayed later on, after you installed the endpoint and added it to a channel or pool. A few changes take place in your additional ViewModel.cs file (if necessary)
 
