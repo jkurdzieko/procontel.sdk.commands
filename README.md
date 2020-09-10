@@ -2,14 +2,6 @@
 
 ## Available docs
 
-- How_to_use_Powershell_commands
-
-```
-How to use commands,
-Run Add-PCTEndpoint,
-Run Add-PCTHmiendpoint,
-Run Add-PCTView
-```
 
 - ICommand_hub
 
