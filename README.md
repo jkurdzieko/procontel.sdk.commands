@@ -33,3 +33,11 @@ Add-PCTHmiendpoint,
 Add-PCTView,
 Add-PCTConfigEndpoint
 ```
+
+- HowToRelease
+
+```
+Tag patterns,
+Release SDK.Commands,
+Release version Sdk.Commands.Tools
+```

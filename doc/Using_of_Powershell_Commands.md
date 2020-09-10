@@ -17,6 +17,8 @@ In this way the functionality is added to your dll after building your project.
 
 - Add-PCTConfigEndpoint - creates a configuration endpoint template and adds all required packages and references.
 
+- Add-PCTWebHost - creates a web host endpoint template and adds all required packages and references.
+
 ## Preparation steps
 
 There are necessary steps to be done before using SDK.Commands:
@@ -106,6 +108,21 @@ Example:
 
 ```
 PM> Add-PCTConfigEndpoint MyEndpoint
+... (nuget packages installation logs )
+Time Elapsed: 00:00:00.5192937
+Endpoint class has been successfully added
+PM> 
+```
+## Add-PCTWebHost [Name] [Url]
+
+The Add-PCTWebHost command will add to your project new file 'Endpoint.cs' which contains basic implementation of 
+web host endpoint class. The command will install all necessary nuget packages and provide logs of installation. It's strongly 
+recommended to define only one endpoint per assembly. This command should be used only once per project.
+
+Example:
+
+```
+PM> Add-PCTWebHost WebHost http://localhost:6000
 ... (nuget packages installation logs )
 Time Elapsed: 00:00:00.5192937
 Endpoint class has been successfully added
