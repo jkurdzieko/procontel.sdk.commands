@@ -1,4 +1,4 @@
-# sdk.commands
+# SDK.Commands
 
 ## Available docs
 
